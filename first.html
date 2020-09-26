@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="cart.js" async></script>
 
     </head>
     <body>
@@ -19,10 +20,26 @@
             <h2 class="about">ABOUT</h2>
             <p id="para">Your own store is a virtual store with mixed of apparels for you, ranging from bags, t-shirts, hoodies, sneakers all under a single umbrella.</p>
             <p id="para2">All the items available on the store are best of the lot.</p>
-            <img src="bgc2.jpg" width="800px" height="300px" class="center">
+            <img src="background.jpg" width="800px" height="300px" class="center">
             <p id="para2">Check out these amazing products and place the order to make them yours.</p>
-            <!--<button onclick="document.location='store.html'" id='lo-button'>Shop now</button>-->
-            <a href="store.html" id="lowerlink">Shop now</a>
+            
+            <div class = 'containe'>
+                <p id="para2">Enter your details to continue.</p>
+                <form id = 'form', class="form" action="data.php" method="POST">
+                    <div class = 'form-control'>
+                        <label for = 'username'>Username</label>
+                        <input type="text" id= 'username' name="fname">
+                    </div>
+        
+                    <div class = 'form-control'>
+                        <label for = 'email'>Email-id</label>
+                        <input type="email" id= 'email' name="email">  
+                    </div>
+                    <button id = 'btn-submit'>Submit</button>
+                </form>
+
+            </div>
+            <!--<a href="store.html" id="lowerlink">Shop Now</a>-->
             
             
         </section>

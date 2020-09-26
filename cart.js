@@ -4,6 +4,21 @@ if (document.readyState == 'loading') {
     ready()
 }
 
+const username = document.getElementById('username')
+const useremail = document.getElementById("email")
+
+function data(){
+    const usernameValue = username.value.trim();
+    const emailValue = useremail.value.trim();
+    
+    if (usernameValue === '' || emailValue === ''){
+        document.getElementById('text').innerHTML = "Please enter info";
+    }else{
+        document.getElementById('text').innerHTML = "Thankyou";
+        
+    }
+}
+
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {

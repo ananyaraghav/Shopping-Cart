@@ -88,13 +88,11 @@ ul {
     font-family: 'Dancing Script', cursive;
     font-family: 'Sacramento', cursive;
     text-align: center;
-    margin-left: 620px;
+    margin-left: 580px;
     color: gray;
     font-size: 30px;
-    margin-top: 2px;
-
-
-
+    margin-top: 50px;
+    text-decoration: none;
 }
 
 .section-header{
@@ -271,3 +269,42 @@ ul {
 .btn-purchase:hover{
     background-color: gray;
 }
+
+.containe{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+    width: 800px;
+    text-align: center;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+
+}
+
+#btn-submit{
+    border-color: pink;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+}
+#btn-submit:hover{
+    background-color: lightgray;
+}
+
+.form-control{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#username{
+    text-align: center;
+    
+}
+
+
